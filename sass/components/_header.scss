@@ -1,0 +1,80 @@
+.contenedor_principal{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 718.75%;
+    width: 100%;
+    background-color: black;
+    .contenedor_logo{
+        background-position: center;
+        background-image: url(/assets/images/Vibrations\ -\ Isologotipo\ B\ Profile.png);  
+        background-size: cover;
+        height: 115px;
+        width: 170px;
+        display: flex;
+        justify-content: center;
+    .logo1{
+        height: 656.25%;
+        width: 750%;
+          }
+        }
+}
+.contenedor_nav{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 450px;
+    a{
+        text-decoration: none;
+        color: rgb(253, 253, 255);
+        }
+    a:hover{
+        transition-duration: 0.50s;
+        color: rgb(73, 72, 72);}
+    .nav_links{
+        padding: 10px 10px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 15px ;
+        margin-left: 20px;
+    }
+}
+.contenedor_redes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    .logo_ig{
+        background-image: url(/assets/images/instagramlogo.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 30px
+    }
+    .logo_soundcloud{
+        background-image: url(/assets/images/soundcloud.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40px;
+        width: 40px
+    }
+}
+    
+    @media(min-width:992px){
+        .contenedor_nav{
+            display: flex;
+        }
+        .contenedor_nav_mobile{
+            display: none;
+        }
+        .contenedor_fotos{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+        .contenedor_publicitario{
+            display: flex;
+       
+    }

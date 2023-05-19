@@ -25,10 +25,7 @@
     align-items: center;
     height: 100px;
     width: 450px;
-    a{
-        text-decoration: none;
-        color: rgb(253, 253, 255);
-        }
+    
     a:hover{
         transition-duration: 0.50s;
         color: rgb(73, 72, 72);}
@@ -63,7 +60,7 @@
     }
 }
     
-    @media(min-width:992px){
+    @media(min-width:$bpMobile){
         .contenedor_nav{
             display: flex;
         }
@@ -76,5 +73,5 @@
         }
         .contenedor_publicitario{
             display: flex;
-       
+        }
     }

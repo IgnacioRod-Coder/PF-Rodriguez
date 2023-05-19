@@ -1,19 +1,43 @@
-
 .contenedor_fotos{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,4fr);
     
 }
+.img1:hover{
+    transform: scale(1,1.01);
+    filter: saturate(50%);
+    filter: grayscale(0%);
+}
+.img2:hover{
+    transform: scale(1,1.01);
+    filter: saturate(50%);
+    filter: grayscale(0%);
+}
+.img3:hover{
+    transform: scale(1,1.01);
+    filter: saturate(50%);
+    filter: grayscale(0%);
+}
+.img4:hover{
+    transform: scale(1,1.01);
+    background-image: linear-gradient(to top);
+    filter: saturate(50%);
+    filter: grayscale(0%);
+}
 .img1{
+    transition: all 1.3s ease;
+    filter: grayscale(100%);
     background-repeat: no-repeat;
     background-image: url(../../assets/images/nuestros\ eventos.jpg);
     background-size: cover;
-    background-position: center;
+    background-position-y: -80px;
     height: 100%;
     width: 100%;
 }
 .img2{
+    transition: all 1.3s ease;
+    filter: grayscale(100%);
     background-image: url(../../assets/images/djs.jpg);
     background-size: cover;
     background-position-y: -80px;
@@ -21,6 +45,8 @@
     width: 100%;
 }
 .img3{
+    transition: all 1.3s;
+    filter: grayscale(100%);
     background-repeat: no-repeat;
     background-image: url(../../assets/images/shop.jpg);
     background-size: cover;
@@ -29,6 +55,8 @@
     width: 100%;
 }
 .img4{
+    transition: all 1.3s;
+    filter: grayscale(100%);
     background-repeat: no-repeat;
     background-image: url(../../assets/images/corporate.jpg);
     background-size: cover;
@@ -37,8 +65,6 @@
     width: 100%;
 }
 .text_unicos{
-    text-decoration: none;
-    font-family: 'Roboto Slab', serif;
     font-weight: 500px;
     font-size: 40px;
     color: white;
@@ -60,7 +86,8 @@
 }
 
 
-@media(min-width:$bpMobile){
+
+@media(min-width: $bpMobile){
     .contenedor_publicitario{
         display: flex;
     }

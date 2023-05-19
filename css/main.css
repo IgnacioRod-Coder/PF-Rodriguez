@@ -89,7 +89,7 @@ a {
   color: white;
   text-align: center;
   line-height: 35vw;
-  text-shadow: 4px 4px black;
+  text-shadow: 4px 4px #111111;
 }
 
 .contenedor_publicitario {
@@ -198,7 +198,7 @@ textarea {
   align-items: center;
   height: 718.75%;
   width: 100%;
-  background-color: black;
+  background-color: #111111;
 }
 .contenedor_principal .contenedor_logo {
   background-position: center;
@@ -272,7 +272,7 @@ textarea {
   }
 }
 .footer {
-  background-color: black;
+  background-color: #111111;
   height: 30px;
   width: 100%;
 }

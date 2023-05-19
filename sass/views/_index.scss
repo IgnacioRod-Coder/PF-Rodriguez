@@ -38,7 +38,7 @@
 .img2{
     transition: all 1.3s ease;
     filter: grayscale(100%);
-    background-image: url(./../assets/images/djs.jpg);
+    background-image: url(../assets/images/djs.jpg);
     background-size: cover;
     background-position-y: -80px;
     height: 100%;
@@ -48,7 +48,7 @@
     transition: all 1.3s;
     filter: grayscale(100%);
     background-repeat: no-repeat;
-    background-image: url(./../assets/images/shop.jpg);
+    background-image: url(../assets/images/shop.jpg);
     background-size: cover;
     background-position-y: -120px;
     height: 100%;
@@ -58,7 +58,7 @@
     transition: all 1.3s;
     filter: grayscale(100%);
     background-repeat: no-repeat;
-    background-image: url(./../assets/images/corporate.jpg);
+    background-image: url(../assets/images/corporate.jpg);
     background-size: cover;
     background-position-y: -260px;
     height: 100%;
@@ -78,7 +78,7 @@
     width: 100%;
 }
 .imgpubli{
-    background-image: url(./../assets/images/fondo-contenedor-publicitrario.png);
+    background-image: url(../assets/images/fondo-contenedor-publicitrario.png);
     background-position: center;
     background-size: cover;
     height: 76px;

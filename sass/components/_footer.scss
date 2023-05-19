@@ -1,10 +1,27 @@
 .footer{
-    background-color: #111111;
-    height: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    height: 150px;
     width: 100%;
-        .text_footer{ 
+        .contenedor_logofooter{
+            margin-bottom: 1px;
+            background-position: center;
+            background-image: url(../assets/images/Vibrations\ -\ Isologotipo\ B\ Profile.png);  
+            background-size: cover;
+            height: 80px;
+            width: 170px;
+            display: flex;
+            justify-content: center;
+        .text_footer{
+            font-size: medium;
             font-weight: bold;
             color: white;
-            height: 15px;
+            justify-content: center;
+            background-position: center;
+            height: 30px;
+            margin-top:85px;
         }
-    }
+        }
+        } 

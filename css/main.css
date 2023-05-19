@@ -44,7 +44,7 @@ a {
   transition: all 1.3s ease;
   filter: grayscale(100%);
   background-repeat: no-repeat;
-  background-image: url(../../assets/images/nuestros\ eventos.jpg);
+  background-image: url(../assets/images/nuestros\ eventos.jpg);
   background-size: cover;
   background-position-y: -80px;
   height: 100%;

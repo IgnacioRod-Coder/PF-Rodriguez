@@ -54,7 +54,7 @@ a {
 .img2 {
   transition: all 1.3s ease;
   filter: grayscale(100%);
-  background-image: url(../../assets/images/djs.jpg);
+  background-image: url(../assets/images/djs.jpg);
   background-size: cover;
   background-position-y: -80px;
   height: 100%;
@@ -65,7 +65,7 @@ a {
   transition: all 1.3s;
   filter: grayscale(100%);
   background-repeat: no-repeat;
-  background-image: url(../../assets/images/shop.jpg);
+  background-image: url(../assets/images/shop.jpg);
   background-size: cover;
   background-position-y: -120px;
   height: 100%;
@@ -76,7 +76,7 @@ a {
   transition: all 1.3s;
   filter: grayscale(100%);
   background-repeat: no-repeat;
-  background-image: url(../../assets/images/corporate.jpg);
+  background-image: url(../assets/images/corporate.jpg);
   background-size: cover;
   background-position-y: -260px;
   height: 100%;
@@ -99,7 +99,7 @@ a {
 }
 
 .imgpubli {
-  background-image: url(/assets/images/fondo-contenedor-publicitrario.png);
+  background-image: url(../assets/images/fondo-contenedor-publicitrario.png);
   background-position: center;
   background-size: cover;
   height: 76px;
@@ -131,7 +131,7 @@ a {
   background-repeat: no-repeat;
   height: 1400px;
   width: 100%;
-  background-image: url(../../assets/images/contenedor\ \ formulario.jpg);
+  background-image: url(../assets/images/contenedor\ \ formulario.jpg);
 }
 
 form {
@@ -202,7 +202,7 @@ textarea {
 }
 .contenedor_principal .contenedor_logo {
   background-position: center;
-  background-image: url(/assets/images/Vibrations\ -\ Isologotipo\ B\ Profile.png);
+  background-image: url(../assets/images/Vibrations\ -\ Isologotipo\ B\ Profile.png);
   background-size: cover;
   height: 115px;
   width: 170px;
@@ -240,7 +240,7 @@ textarea {
   width: 200px;
 }
 .contenedor_redes .logo_ig {
-  background-image: url(/assets/images/instagramlogo.png);
+  background-image: url(../assets/images/instagramlogo.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -248,7 +248,7 @@ textarea {
   width: 30px;
 }
 .contenedor_redes .logo_soundcloud {
-  background-image: url(/assets/images/soundcloud.jpg);
+  background-image: url(../assets/images/soundcloud.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
